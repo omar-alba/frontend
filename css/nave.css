@@ -1,0 +1,70 @@
+nav{
+     display:flex;
+    flex-direction:column;
+    align-items:center; 
+    /* mixin less  pero no funciona .flex-direction:column; */
+    background-color: aquamarine;
+    border: red solid transparent 3px;
+    padding-top: 10px;
+}
+ul{
+    display:flex;
+    justify-content: space-around;
+    width: 50%;
+    padding: 10px;
+
+}
+ul li{
+list-style: none;
+}
+ a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;   
+}
+section{
+   
+    background-color: yellow;
+    width: 50%;
+    height: 200px;
+  display: flex;
+  margin-left: 320px;
+  margin-top: 10px;
+ 
+}
+ .music img{
+width: 180px;
+height: 180px;
+margin: 10px;
+}
+.pregunta h3{
+ font-size: 30px;
+    width: 100%;
+    height: 40px;
+    background-color:white;
+    
+
+}
+.pregunta {
+    background-color:blue;
+    width: 50%;
+    height: 200px;
+  margin-left: 320px;
+  margin-top: 10px;
+}
+.actual .actual-tex h3{
+    font-size: 30px;
+    width: 100%;
+    height: 40px;
+    background-color:white;
+    
+
+}
+.actual {
+    background-color:rgb(0, 255, 64);
+    width: 50%;
+    height: 200px;
+  margin-left: 320px;
+  margin-top: 10px;
+}
